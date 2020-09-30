@@ -8,14 +8,14 @@
 		<version>2.1.4.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.example.report</groupId>
+	<groupId>ru.dvorobiev.report-1</groupId>
 	<artifactId>reportService</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>reportService</name>
-	<description>Demo project for Spring Boot</description>
+	<description>Neo4j Example project for Spring Boot</description>
 
 	<properties>
-		<java.version>1.8</java.version>
+		<java.version>1.11</java.version>
 	</properties>
 
 	<dependencies>
@@ -43,7 +43,7 @@
 		<dependency>
 			<groupId>org.neo4j</groupId>
 			<artifactId>neo4j</artifactId>
-			<version>3.4.9</version>
+			<version>4.1.0</version>
 			<scope>runtime</scope>
 		</dependency>
 		<dependency>
